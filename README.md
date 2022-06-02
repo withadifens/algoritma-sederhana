@@ -1,14 +1,26 @@
 # Algoritma Sederhana
 
-### Check bilangan ganjil atau genap
+### Check bilangan ganjil saja
 
 ```
 void main(){
-  int angka = 5;
+  int angka = 7;
+  if(angka % 2 == 1){
+    print("$angka adalah bilangan ganjil");
+  }else
+    print("$angka bukan bilangan ganjil");
+}
+```
+
+### Check bilangan genap atau ganjil
+
+```
+void main(){
+  int angka = 6;
   if(angka % 2 == 0)
-      print("Angka $angka merupakan angka Genap.");
+      print("Angka $angka merupakan bilangan Genap.");
   else{
-    print("Angka $angka merupakan angka Ganjil.");
+    print("Angka $angka merupakan bilangan Ganjil.");
   }
 }
 ```
@@ -31,7 +43,7 @@ void main(){
 
 ```
 void main(){
-  int angka = 24;
+  int angka = 4;
   int cek = 0;
   for (int i = 2; i <= angka; i++){
             if (angka % i == 0){
