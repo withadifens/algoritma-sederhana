@@ -10,9 +10,9 @@ void main(){
   int angka = 5;
 
   if(angka % 2 == 0)
-      print("Angka ${angka} merupakan angka Genap.");
+      print("Angka $angka merupakan angka Genap.");
   else{
-    print("Angka ${angka} merupakan angka Ganjil.");
+    print("Angka $angka merupakan angka Ganjil.");
   }
 }
 ```
@@ -26,9 +26,9 @@ void main(){
   int kelipatan = 5;
 
   if(angka % kelipatan == 0)
-      print("Angka ${angka} merupakan kelipatan ${kelipatan}.");
+      print("Angka $angka merupakan kelipatan $kelipatan.");
   else{
-    print("Angka ${angka} bukan kelipatan ${kelipatan}.");
+    print("Angka $angka bukan kelipatan $kelipatan.");
   }
 }
 ```
@@ -37,7 +37,7 @@ void main(){
 
 ```
 void main(){
-  int bil = 24;
+  int angka = 24;
   int cek = 0;
   for (int i=2; i<=bil; i++){
             if (bil%i==0){
@@ -46,9 +46,9 @@ void main(){
         }
 
         if (cek==1){
-            print("${bil} adalah bilangan prima");
+            print("$angka adalah bilangan prima");
         }else {
-            print("${bil} bukan bilangan prima");
+            print("$angka bukan bilangan prima");
         }
 }
 ```
