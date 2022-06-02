@@ -1,6 +1,6 @@
 # Algoritma Sederhana
 
-## Check Bilangan Ganjil dan Genap
+## Check apakah bilangan ganjil atau genap
 
 ```
 void main(){
@@ -28,5 +28,25 @@ void main(){
   else{
     print("Angka ${angka} bukan kelipatan ${kelipatan}.");
   }
+}
+```
+
+## Check bilangan prima atau bukan
+
+```
+void main(){
+  int bil = 24;
+  int cek = 0;
+  for (int i=2; i<=bil; i++){
+            if (bil%i==0){
+                cek++;
+            }
+        }
+
+        if (cek==1){
+            print("${bil} adalah bilangan prima");
+        }else {
+            print("${bil} bukan bilangan prima");
+        }
 }
 ```
