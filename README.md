@@ -1,6 +1,8 @@
 # Algoritma Sederhana
 
-## Check apakah bilangan ganjil atau genap
+## Kumpulan Program Matematika Dasar
+
+### Check bilangan ganjil atau genap
 
 ```
 void main(){
@@ -15,7 +17,7 @@ void main(){
 }
 ```
 
-## Check kelipatan 5
+### Check kelipatan 5
 
 ```
 void main(){
@@ -31,7 +33,7 @@ void main(){
 }
 ```
 
-## Check apakah bilangan prima
+### Check bilangan prima
 
 ```
 void main(){
