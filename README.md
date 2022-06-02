@@ -31,7 +31,7 @@ void main(){
 }
 ```
 
-## Check bilangan prima atau bukan
+## Check apakah bilangan prima
 
 ```
 void main(){
