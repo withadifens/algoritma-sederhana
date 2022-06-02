@@ -50,7 +50,6 @@ void main(){
                 cek++;
             }
         }
-
         if (cek==1){
             print("$angka adalah bilangan prima");
         }else {
